@@ -1,7 +1,10 @@
 {
-  "name": "component-lib-poc",
+  "name": "@seanianking/component-lib-poc",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/seanianking"
+  },
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": "dist",
